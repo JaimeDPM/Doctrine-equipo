@@ -1,0 +1,23 @@
+{
+    "name": "jdepa/equipo-doctrine",
+    "description": "Equipos que tienen jugadores",
+    "type": "project",
+    "require": {
+        "doctrine/orm": "^2.17",
+        "doctrine/cache": "^1.1",
+        "doctrine/annotations": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jdepa\\EquipoDoctrine\\": "src/",
+              "Jdepa\\EquipoDoctrine\\Entity\\": "src/Entity"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaime"
+        }
+    ],
+    "minimum-stability": "stable"
+}
